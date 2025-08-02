@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ed956ecf8e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#learning">Learning</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Md. Anamul Haque Mony</h1>
+                <p>Eletrical and Electronic Engineer</p> 
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"> 
+                    <img class="user" src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I’m a 4th-year Electrical and Electronic Engineering student at University of Rajshahi,
+                        passionate about Power Systems and antenna design. I enjoy finding creative solutions to complex problems,
+                        whether it’s analyzing power grids or designing antennas.
+                        As Vice-Chair of the IEEE APS RUSB Chapter and Secretary of the IEEE RUSB, 
+                        I’ve developed strong leadership, teamwork, and communication skills by organizing events and working with students and professionals.
+                        I like working with others, sharing ideas, and getting things done together. I always try to give my best and make a positive difference in my field.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link"onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('interests')">Interests</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="experience">
+                            <ul>
+                                <li><span>IEEE University of Rajshahi Student Branch</span>
+                                    <br>General Secretary - Dec 2024 to Present
+                                </li>
+                                <li><span>IEEE Antennas and Propagation Society RUSBC</span>
+                                    <br>Founding Vice-Chair - Oct 2024 to Present</li>
+                                <li><span>Rajshahi University Higher Study Club </span>
+                                    <br>Research and Analytics Incharge - Feb 2024 to Feb 2025 - 1 year
+                                    <br>Skill Lab Incharge - Mar 2023 to Feb 2024 - 1 year
+                                    <br>Member - Mar 2022 to Feb 2023 - 1 year
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="skills">
+                            <ul>
+                                <li><span>Web Development </span><br>Web App Development</li>
+                                <li><span>Matlab </span><br>Simulation & Numerical MOdeling</li>
+                                <li><span>Powerworld </span><br>Power System Simulation</li>
+                                <li><span>PCB Design </span><br>Schematic & PCB Layout</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="interests">
+                            <ul>
+                              <li><span>Antenna Design</span><br>Modern Wireless Systems</li>
+                              <li><span>Embedded Systems</span><br>IoT & Device Programming</li>
+                              <li><span>Renewable Energy</span><br>Smart Grids & Solar Integration</li>
+                              <li><span>Humanitarian Technology</span><br>Technology for Social Good</li>
+                            </ul>
+                          </div>
+                        <div class="tab-contents"  id="education">
+                            <ul>
+                                <li><span>University of Rajshahi </span>
+                                    <br>BSC in Electrical and Electronic Engineering
+                                    <br>February 2022 - Present
+                                    <br>CGPA: 3.4 (till 6th semester)
+                                </li>
+                                <li><span>Dhaka Residential Model College</span>
+                                    <br>Higher Secondary Certificate (HSC)
+                                    <br>Science Group, GPA: 5.00
+                                </li>
+                                <li><span>Sujanagar Pilot Model High School</span>
+                                    <br>Secondary School Certificate (SSC)
+                                    <br>Science Group, GPA: 5.00
+                                </li>
+                            </ul>
+                        </div>     
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------Services---------------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-microchip"></i>
+                    <h2>PCB Design</h2>
+                    <p>I design efficient and compact printed circuit boards optimized for performance and manufacturability.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Development </h2>
+                    <p>I create beautiful and functional websites that provide a great user experience.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-project-diagram"></i>
+                    <h2>Embedded Systems</h2>
+                    <p>I develop reliable embedded systems using microcontrollers and sensors for automation, IoT, and smart devices.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                                
+            </div>
+        </div>
+        <!-- -----Projects------ -->
+        <div id="projects">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="project-list">
+                    <div class="project">
+                        <img src="images/project1.png" alt="Project 1">
+                        <div class="layer">
+                            <h2>Code Sovereigns – E-commerce Site</h2>
+                            <p>A team-built e-commerce website inspired by Startech, showcasing tech products with modern UI and responsive design.</p>
+                            <a href="https://codesovereigns.netlify.app/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="project">
+                        <img src="images/project2.png" alt="Project 2">
+                        <div class="layer">
+                            <h2>Project Title 1</h2>
+                            <p>Description of project 1.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>>
+                    </div>
+                    <div class="project">
+                        <img src="images/project3.png" alt="Project 3">
+                        <div class="layer">
+                            <h2>Project Title 1</h2>
+                            <p>Description of project 1.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div> 
+                <a href="#" class="btn">View All Projects</a>
+            </div>
+                    <!-- -----My Learning------ -->
+        <div  id="learning">
+            <div class="container">
+                <h1 class="sub-title">My Learning</h1>
+                <!------ Categories Control System------>
+            <div> <h2 class="catagory">Control System</h2>
+                <div class="project-list">
+                    <div class="project">
+                        <img src="images/Control_System/rlocus.png" alt="Project 1">
+                        <div class="layer">
+                            <h2>Stability Analysis Using Root Locus</h2>
+                            <p>Used MATLAB to find the stable gain range of a unity feedback system using root locus and Routh-Hurwitz criteria.</p>
+                            <a href="https://drive.google.com/file/d/1XAY6QiPP_R0RItv9xFSiKD2-2AmvnIkE/view?usp=sharing" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="project">
+                        <img src="images/Control_System/Time_Response.png" alt="Project 2">
+                        <div class="layer">
+                            <h2>Time Response of a closed loop system</h2>
+                            <p>Analyzed the step response of a third-order control system using MATLAB to determine peak time, overshoot, and settling time.</p>
+                            <a href="https://drive.google.com/file/d/1OSmQ5aQl65JJsF_CuM7Xa57ZITvBVV52/view?usp=sharing" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>>
+                    </div>
+                    <div class="project">
+                        <img src="images/Control_System/motor.png" alt="Project 3">
+                        <div class="layer">
+                            <h2>Step Response of a DC Motor Using Transfer Function</h2>
+                            <p>This project analyzes the step response of a DC motor using its transfer function. By simulating the motor's behavior in MATLAB, key performance 
+                                metrics like rise time, settling time, and steady-state speed are evaluated to understand the motor's dynamic characteristics.</p>
+                            <a href="https://drive.google.com/file/d/18pkKykarIhXoTvn58mt1rin8TWZz5E2J/view?usp=sharing" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div> 
+                <a href="#" class="btn">View All Learning</a>
+            </div>
+            <!------ Categories Communication System------>
+            <div class="catagory"> <h2>communication System</h2>
+                <div class="project-list">
+                    <div class="project">
+                        <img src="images/Communication_System/AM.png" alt="Project 1">
+                        <div class="layer">
+                            <h2>Amplitude Modulation and Demodulation using Proteus</h2>
+                            <p>This project demonstrates the generation and recovery of an amplitude modulated (AM) signal using a carrier and message signal in Proteus simulation.
+                                 The output verifies successful modulation and demodulation processes through waveform analysis.</p>
+                            <a href="https://drive.google.com/file/d/1Ig0-rW9TbZvb-hGsV1Z3WrTbzyY2RUFW/view?usp=sharing" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="project">
+                        <img src="images/project2.png" alt="Project 2">
+                        <div class="layer">
+                            <h2>Project Title 1</h2>
+                            <p>Description of project 1.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>>
+                    </div>
+                    <div class="project">
+                        <img src="images/project3.png" alt="Project 3">
+                        <div class="layer">
+                            <h2>Project Title 1</h2>
+                            <p>Description of project 1.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div> 
+                <a href="#" class="btn">View All Learning</a>
+            </div>
+            </div>
+            <!-- -----Contact------ -->
+             <div id="contact">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>anamulhaquemony42@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+880 1771758536</p>
+                        <p>Rajshahi, Bangladesh</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="/images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+                    </div>
+
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn2">Send Message</button>
+                        </form>
+                    </div>            
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2025 Md. Anamul Haque Mony. All rights reserved.</p>
+             </div>   
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
