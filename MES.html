@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ed956ecf8e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#learning">Learning</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Md. Anamul Haque Mony</h1>
+                <p>Eletrical and Electronic Engineer</p> 
+            </div>
+        </div>
+    </div>
+    
+    
+                    <!-- -----My Learning------ -->
+        <div  id="learning">
+            <div class="container">
+                <h1 class="sub-title">My Learning</h1>
+            <!------ Categories Communication System------>
+            <div class="catagory"> <h2>communication System</h2>
+                <div class="project-list">
+                    <div class="project">
+                        <img src="images/MES/arithmetic and logical problem.png" alt="Project 1">
+                        <div class="layer">
+                            <h2>Arithmetic and Logical Operations</h2>
+                            <p>Implemented arithmetic and logical operations using the 8086 Microprocessor
+                                 on an MDA-8086 trainer kit. Gained hands-on experience with assembly programming, register manipulation, and flag analysis.</p>
+                            <a href="https://drive.google.com/file/d/1Yt8I_aWVPqHoMvnoT51-vg-xc6LVYLWR/view?usp=drive_link" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="project">
+                        <img src="images/MES/mathematical problem.png" alt="Project 2">
+                        <div class="layer">
+                            <h2>solve mathematical problems using 8086 microprocessor emulators.</h2>
+                            <p>Solved problems like summation, factorial, square, and average using assembly programs in an emu8086. Improved skills in algorithm implementation and microprocessor-based computation.</p>
+                            <a href="https://drive.google.com/file/d/1gXG50c_LVOw0UY-ZuSEevZmoK1pfMSfG/view?usp=drive_link" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/MES/machine_code.png" alt="Project 3">
+                        <div class="layer">
+                            <h2>load the machine codes in MDA_8086 trainer</h2>
+                            <p>Loaded and executed machine-level instructions on the MDA-8086 trainer using the 8086 Microprocessor. Verified outputs and analyzed status flags to understand low-level program execution.</p>
+                            <a href="https://drive.google.com/file/d/1SZpZ_PqsFFxubWYx-mYZq-5FMBKu37bn/view?usp=drive_link" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/MES/Up Counter.jpg" alt="Project 3">
+                        <div class="layer">
+                            <h2>Up Counter</h2>
+                            <p>Designed and implemented an up counter using an AVR Microcontroller, interfaced with an LED bar display. Demonstrated real-time counting, digital output control, and embedded system design.</p>
+                            <a href="https://drive.google.com/file/d/10w2MDWJklF80Y29AcLNYtJFREppC48Pe/view?usp=drive_link" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/MES/7-Segment Display.jpg" alt="Project 3">
+                        <div class="layer">
+                            <h2>7-Segment Display</h2>
+                            <p>Developed an interfacing system between a ATmega16 and a 7-segment display to visualize numerical outputs. Strengthened understanding of I/O ports, display control, and embedded programming.</p>
+                            <a href="https://drive.google.com/file/d/1RqvrAGScCSCb0ZxSyzbwsX3LIe9poDHs/view?usp=drive_link" target="_blank"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div> <br> <br>
+            </div>
+            </div>
+            <!-- -----Contact------ -->
+             <div id="contact">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>anamulhaquemony42@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+880 1771758536</p>
+                        <p>Rajshahi, Bangladesh</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="/images/my-cv.pdf" download class="btn btn2">Download Resume</a>
+                    </div>
+
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn2">Send Message</button>
+                        </form>
+                    </div>            
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2025 Md. Anamul Haque Mony. All rights reserved.</p>
+             </div>   
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
